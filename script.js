@@ -47,7 +47,7 @@
  function step1 () {
     console.log('step1');
    // Get audio/video stream
-   navigator.getUserMedia({audio: true, video: false}, function(stream){
+   navigator.getUserMedia({audio: true, video: true}, function(stream){
      // Set your video displays
      $('#my-video').prop('srcObject', stream);
 
